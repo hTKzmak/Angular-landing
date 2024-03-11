@@ -1,0 +1,62 @@
+.testimonial {
+    margin-top: 150px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title>h1 {
+    font-size: 36px;
+    color: #1A2434;
+}
+
+.title>.designation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.checked {
+    color: orange;
+    font-size: 24px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.review{
+    width: 357px;
+}
+
+.review > h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.review > h5{
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.review > p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.rating{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.rating > p{
+    font-size: 20px;
+    font-weight: 600;
+}

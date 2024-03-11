@@ -1,0 +1,10 @@
+<section>
+    <div class="counters">
+        @for(elem of countInfo; track $index){
+            <div class="counter">
+                <h1>{{elem.count}} <span>{{elem.sign}}</span></h1>
+                <p>{{elem.text}}</p>
+            </div>
+        }
+    </div>
+</section>

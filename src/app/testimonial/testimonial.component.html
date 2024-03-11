@@ -1,0 +1,24 @@
+<section>
+    <div class="testimonial">
+        <div class="title">
+            <div class="designation">
+                <div class="line"></div>
+                <h3>Testimonial</h3>
+            </div>
+            <h1>Student Testimonial</h1>
+        </div>
+        <div class="reviews">
+            @for(elem of testimonialInfo; track $index){
+            <div class="review">
+                <h4>{{elem.user}}</h4>
+                <h5>{{elem.job}}</h5>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <p>{{elem.rating}}</p>
+                </div>
+                <p>{{elem.text}}</p>
+            </div>
+            }
+        </div>
+    </div>
+</section>

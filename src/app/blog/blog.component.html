@@ -1,0 +1,33 @@
+<section>
+    <div class="blogBrowse">
+        <div class="title">
+            <div class="designation">
+                <div class="line"></div>
+                <h3>Blog</h3>
+            </div>
+            <h1>Browse articles</h1>
+        </div>
+        <div class="blogs">
+            @for(elem of blogInfo; track $index){
+            <div class="blog">
+                <img [src]="elem.image" alt="#">
+                <div class="info">
+                    <div class="info-item">
+                        <img src="/assets/user.svg">
+                        <p>{{elem.user}}</p>
+                    </div>
+                    <div class="info-item">
+                        <img src="/assets/calendar.svg">
+                        <p>{{elem.data}}</p>
+                    </div>
+                </div>
+                <p>{{elem.text}}</p>
+                <a class="link" href="#!">Read more <img src="/assets/arrow.svg"></a>
+            </div>
+            }
+        </div>
+    </div>
+    <div class="buttonLearnMore">
+        <a class="buttonImitate" href="#!">Learn more <img src="/assets/arrow_white.svg"></a>
+    </div>
+</section>

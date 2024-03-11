@@ -1,0 +1,38 @@
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 48px;
+    list-style-type: none;
+}
+
+ul>li>a {
+    color: #000;
+}
+
+
+.header-row {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-row-title{
+    width: 528px;
+}
+
+.header-row-title > h1{
+    margin: 40px 0;
+}
+
+.header-row-title > p{
+    margin: 40px 0;
+}
+
+.header-row-title > a{
+    margin-top: 16px;
+}

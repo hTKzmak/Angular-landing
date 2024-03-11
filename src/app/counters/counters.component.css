@@ -1,0 +1,25 @@
+.counters{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 80px;
+}
+
+.counter{
+    text-align: center;
+    width: 200px;
+}
+
+.counter > h1{
+    font-size: 64px;
+    color: #1A2434;
+}
+
+span{
+    color: #A4074D;
+}
+
+.counter > p{
+    font-size: 20px;
+    line-height: 35px;
+}
